@@ -1,0 +1,33 @@
+/* Center the container */
+.container {
+  text-align: center;
+  margin-top: 100px;
+  font-family: Arial, sans-serif;
+}
+
+/* The color box */
+#color-box {
+  width: 50vw;
+  height: 50vh;
+  margin: 20px auto;
+  background-color: #3498db;
+  border: 3px solid #000;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+/* The button */
+#change-color-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #2ecc71;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#change-color-btn:hover {
+  background-color: #27ae60;
+}
